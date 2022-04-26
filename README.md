@@ -38,9 +38,8 @@ python ImageQuilting.py nuts.png 5 5 30 T
 
 #State files
 All the intermediate adjacency matrices built produced are saved in a directory called
-state_files and it is cleared before each run. It also stores which pixels are used from which overlap 
-
-They are named by the iteration in which they are computed and are stored in image_files directory
+state_files and it is cleared before each run. It also stores which pixels are used from which overlap and
+they are named by the iteration in which they are computed and are stored in state_files directory
 
 All the intermediate image outputs are stored in image_files directory.
 

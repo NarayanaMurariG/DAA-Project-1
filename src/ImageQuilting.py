@@ -193,6 +193,9 @@ class ImageQuilting:
             # Building an adjacency matrix and then calculating weights and performing graph cut
             # It returns the postions where the graph has to be cut
             cut_pos = adjacencyMatrix.calculateGraph(left_overlap, right_overlap, cut)
+            #Saving to file
+            Util.save_min_cut_output(cut_pos,i,j)
+            #
             matrix_to_print = adjacencyMatrix.adjacency_matrix
             Util.save_graph(matrix_to_print, i, j)
 
@@ -216,6 +219,9 @@ class ImageQuilting:
             # Building an adjacency matrix and then calculating weights and performing graph cut
             # It returns the postions where the graph has to be cut
             cut_pos = adjacencyMatrix.calculateGraph(top_overlap, bottom_overlap, cut)
+            # Saving to file
+            Util.save_min_cut_output(cut_pos, i, j)
+            #
             matrix_to_print = adjacencyMatrix.adjacency_matrix
             Util.save_graph(matrix_to_print, i, j)
 
@@ -242,6 +248,9 @@ class ImageQuilting:
             # Building an adjacency matrix and then calculating weights and performing graph cut
             # It returns the postions where the graph has to be cut
             cut_pos = adjacencyMatrix.calculateGraph(left_overlap, right_overlap, cut)
+            # Saving to file
+            Util.save_min_cut_output(cut_pos, i, j)
+            #
             matrix_to_print = adjacencyMatrix.adjacency_matrix
             Util.save_graph(matrix_to_print, i, j)
 

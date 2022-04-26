@@ -30,7 +30,7 @@ All the working screenshots and output images are located in a directiry called 
 
 When application is executed all the adjacency matrices and seam cuts are 
 stored in the state_files directory, which will be created and cleared when the 
-script is run.
+script is run. the state_files_directory also contains the outputs of mincut algorithm
 
 Similarly, all the intermediate outputs for a particular run will be stored in
 image_files directory, which will be created and cleared when the script is run.

@@ -39,3 +39,12 @@ def save_plots(image,str):
     plt.imshow(image)
     plt.savefig(path)
     pass
+
+def save_min_cut_output(nodes_to_cut,x,y):
+    currentDirectory = os.getcwd()
+    identifier = 'nodes-to-cut-(' + str(x) + ',' + str(y) + ').txt'
+    path = os.path.join(currentDirectory, 'state_files', identifier)
+    textFile = open(path, "w")
+    for element in nodes_to_cut:
+        textFile.write(element + "\n")
+    textFile.close()

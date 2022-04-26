@@ -102,6 +102,11 @@ class ImageQuilting:
                 e = self.leastOverlapError(random_sample_patch, samplePatchDimensions, overlap, y, x)
                 errors[i, j] = e
 
+
+        # Now that we have computed the errors for different patches across the input image
+        # We have to get the start index for the patch which has least error and it is
+        # Acheived by getting the indices of min error in error matrix using argmin and
+        # unravel_index numpy functions
         i, j = np.unravel_index(np.argmin(errors), errors.shape)
         return image[i:i + samplePatchDimensions, j:j + samplePatchDimensions]
 

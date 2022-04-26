@@ -18,6 +18,8 @@ Ford Fulkerson algorithm and then based on graph cut output, decided on which pi
 patch and then copied those pixels to the final output.
 
 ##Commands to Run
+All the sample outputs and intermediate outputs are stored in intermediate outputs directory
+
 How to run the application and arguments needed:
     ImageQuilting.py <path-to-sample-image> x y tileSize
 

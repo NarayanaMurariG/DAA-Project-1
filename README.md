@@ -56,7 +56,7 @@ Examples with actual files
 
 The output is as follows: 
 
-(venv) narayanamurari@MacBook-Pro-16 src % python ImageQuilting.py test.png 3 3 20 T
+(venv) narayanamurari@MacBook-Pro-16 src % python ImageQuilting.py test.png 3 3 20
 <br>
 Number of arguments: 5 arguments.
 <br>

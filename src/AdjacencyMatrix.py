@@ -6,7 +6,7 @@ class AdjacencyMatrix:
     def __init__(self, height, width,pos_matrix):
         self.pos_matrix = pos_matrix
         self.node_count = height * width + 2
-        self.adjacency_matrix  = np.zeros([self.node_count,self.node_count],dtype=float)
+        self.adjacency_matrix = np.zeros([self.node_count,self.node_count],dtype=float)
 
     def add_terminal_edge_capacities(self,overlap_pos,cut):
 
@@ -28,7 +28,7 @@ class AdjacencyMatrix:
 
             height = overlap_pos.shape[0]
             top_row = overlap_pos[0, :]
-            bottom_row  = overlap_pos[height-1,:]
+            bottom_row = overlap_pos[height-1,:]
             for i, j in enumerate(top_row):
                 self.adjacency_matrix[0, j] = sys.maxsize
 

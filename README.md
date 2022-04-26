@@ -32,8 +32,6 @@ python ImageQuilting.py test.png 3 3 20 T
 python ImageQuilting.py tomato.png 4 4 50 T
 <br>
 python ImageQuilting.py nuts.png 5 5 30 T
-<br>
-python ImageQuilting.py nuts.png 4 4 60 T
 
 
 #State files

@@ -40,7 +40,7 @@ Only the inital input image and final output image are displayed as plots.
 All the python scripts and classes are located in the src folder
 
 How to run the application and arguments needed:
-    ImageQuilting.py <path-to-sample-image> x y tileSize
+    **ImageQuilting.py <path-to-sample-image> x y tileSize**
 
 Here, x, y are no of rows and columns of the final output image and they contain x*y image segments 
 of tileSize (approximately)
@@ -48,11 +48,11 @@ of tileSize (approximately)
 
 Examples with actual files
 
-python ImageQuilting.py test.png 3 3 20
+**python ImageQuilting.py test.png 3 3 20**
 <br>
-python ImageQuilting.py tomato.png 4 4 50
+**python ImageQuilting.py tomato.png 4 4 50**
 <br>
-python ImageQuilting.py nuts.png 5 5 30
+**python ImageQuilting.py nuts.png 5 5 30**
 
 The output is as follows: 
 

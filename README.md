@@ -37,7 +37,11 @@ image_files directory, which will be created and cleared when the script is run.
 
 Only the inital input image and final output image are displayed as plots.
 
-All the python scripts and classes are located in the src folder
+**All the python scripts and classes are located in the src folder and make sure 
+commands are executed in that folder**
+
+Note : If running through command line, close the plot of the first input image (i.e. first plot) for the
+program to proceed. (You can also create run configurations if using any IDE)
 
 How to run the application and arguments needed:
     **ImageQuilting.py <path-to-sample-image> x y tileSize**
